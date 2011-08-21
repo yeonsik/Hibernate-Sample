@@ -2,10 +2,8 @@
 <project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="Hibernate-Sample">
         <wb-resource deploy-path="/" source-path="/WebContent"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/util"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java"/>
         <property name="context-root" value="Hibernate-Sample"/>
-        <property name="java-output-path" value="/Hibernate-Sample/build/classes"/>
+        <property name="java-output-path" value="/Hibernate-Sample/build"/>
     </wb-module>
 </project-modules>
